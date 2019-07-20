@@ -1,0 +1,50 @@
+PODS:
+  - BlueCryptor (1.0.27)
+  - BlueECC (1.2.1)
+  - BlueRSA (1.0.28)
+  - KituraContracts (1.1.2):
+    - LoggerAPI (~> 1.7)
+  - LoggerAPI (1.8.1)
+  - SwiftJWT (3.4.1):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.1)
+    - LoggerAPI (~> 1.7)
+  - UMCCommon (2.0.1)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - SwiftJWT
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
+    - KituraContracts
+    - LoggerAPI
+    - SwiftJWT
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+
+SPEC CHECKSUMS:
+  BlueCryptor: 152e16f87a647dd5b8f6a7420131c5c483bb3c82
+  BlueECC: 32d896437419950816dac90a377815cf69951e01
+  BlueRSA: a468fdcf3c3a456e7376ad55fd5d81bba0ca9270
+  KituraContracts: fdb9576d40d1ac737765128158bfd412705b1c3b
+  LoggerAPI: 7a807a0c8f512973f307a9cd226dba1bfdf3e3a7
+  SwiftJWT: b927e6f4ee6a9db6d4c9c4374d050e0a7b56ab6e
+  UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 9652db34a7da4793c19fc210e4f8fe6df76e0bf2
+
+COCOAPODS: 1.6.1
